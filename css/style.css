@@ -80,15 +80,27 @@ footer{
 }
 
 /*media query*/
-@media (min-width:576px) {
-    header .section1{
-        width: 10%;
-        background-color: cyan;
+@media screen and (max-width: 480px) {
+    .debug header .section1{
+        width: 20%;
+        display: inline-block;
+        background-color: black;
+    }
+    
+    .debug header .section2{
+        width: 80%;
+        background-color: yellow;
     }
 
-    footer .left,
-    footer .center,
-    footer .right{
-        width: 33%;
+    .debug footer .left{
+        width: 30%;
+    }
+
+    .debug footer .center{
+        width: 40%;
+    }
+
+    .debug footer .right{
+        width: 30%;
     }
 }
