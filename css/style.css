@@ -80,6 +80,15 @@ footer{
 }
 
 /*media query*/
-@media screen and (min-width:576px) {
-    
+@media (min-width:576px) {
+    header .section1{
+        width: 10%;
+        background-color: cyan;
+    }
+
+    footer .left,
+    footer .center,
+    footer .right{
+        width: 33%;
+    }
 }
