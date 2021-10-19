@@ -33,6 +33,10 @@ footer{
     margin-left: 20px;
 }
 
+#img2{
+    display: none;
+}
+
 /*sezione debug*/
 .debug header section{
     height: 100%;
@@ -110,9 +114,13 @@ footer{
     }
 
     .section1 img{
-        width: 120px;
-        margin-top: 0;
-        margin-left: 10px;
+        display: none;
     }
-
+    
+    #img2{
+        width: 30px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
 }
