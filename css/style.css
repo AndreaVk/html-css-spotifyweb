@@ -49,24 +49,26 @@ footer{
     height: calc(100% - 100px);
 }
 
-.navplaylist {
+.playlist {
     display: none;
 }
 
 .bottom {
     height: 100px;
     vertical-align: middle;
-    line-height: 100px;
     text-align: center;
 }
 
 .bottom #arrow{
     filter: invert(1);
     
+    
 }
 
-.bottom #user{
-
+#user{
+    filter: invert(2);
+    font-size: 25px;
+    margin-top: 30px;
 }
 
 .colonna2 {
@@ -89,6 +91,25 @@ footer{
     background-color:#080B12;
 }
 
+.navlist{
+    width: 100%;
+}
+
+.scelta{
+    margin-top: 80px;
+    display: flex;
+}
+
+.scelta ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:#7D7F84;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+
+}
+
 .logo2{
     display: none;
 }
@@ -106,6 +127,50 @@ footer{
     right: 10px;
 }
 
+.titolo h1{
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.container::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 97%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.box{
+    position: relative;
+    width: calc(100%/ 2 - 10px);
+    height: 31%;
+    margin: 5px;
+    float: left;
+    text-align: center;
+}
+
+.box img{
+    width: 100%;
+    height: 75%;
+    background-position: center;
+}
+
+.box h2{
+    color: white;
+    font-size: 13px;
+}
+
+.box span{
+    color:#7D7F84;
+    font-size: 11px;
+}
 
 footer .left{
     height: 100%;
