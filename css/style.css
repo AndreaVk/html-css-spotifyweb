@@ -6,15 +6,6 @@
     font-family: 'PlusJakartaSans', sans-serif;
 } 
 
-header{
-    height: 100px;
-    width: 100%;
-    background-color: red;
-    display: flex;
-    position: fixed;
-    z-index: 999;
-}
-
 main{
     width: 100%;
     height: calc(100vh - 90px);
@@ -35,6 +26,12 @@ footer{
     
 }
 
+.logo1{
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
 
 .colonna2 {
     width: calc(100% - 50px);
@@ -49,8 +46,7 @@ footer{
     right: 0;
     width: 100%;
     width: calc(100% - 50px);
-    height: 90px;
-    background-color: ;
+    height: 80px;
     z-index: 999;
     text-align: right;
     padding: 20px;
@@ -61,48 +57,26 @@ footer{
     display: none;
 }
 
-/*sezione debug*/
-.debug header section{
+footer .left{
     height: 100%;
-}
-
-.debug header .section1{
-    background-color:#000000;
-    width: 250px;
-    
-}
-
-.debug header .section2{
-    background-color:#080B12 ;
-    width: calc(100% - 250px);
-}
-
-.debug main{
-    background-color: greenyellow;
-}
-
-
-.debug footer{
-    background-color: pink;
-}
-
-.debug footer .left{
-    height: 100%;
-    width: 15%;
+    width: 30%;
     background-color: grey;
 }
 
-.debug footer .center{
+footer .center{
     height: 100%;
-    width: 70%;
+    width: 40%;
     background-color: indigo;
 }
 
-.debug footer .right{
+footer .right{
     height: 100%;
-    width: 15%;
+    width: 30%;
     background-color: navy;
 }
+
+
+/*sezione debug*/
 
 /*media query*/
 @media screen and (min-width: 480px){
@@ -117,6 +91,9 @@ footer{
     .call-to-action {
         width: calc(100% - 210px);
     }
-
+    
+    .logo1{
+        display: none;
+    }
 
 } 
