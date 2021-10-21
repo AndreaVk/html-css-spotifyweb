@@ -355,8 +355,8 @@ footer .right{
     background-color:#282828;
     display: flex;
     align-items: center;
+    justify-content: right;
 }
-
 .right i{
     color: white;
     margin-left: 12px;
@@ -367,10 +367,12 @@ footer .right{
 }
 
 .right hr{
-    width: 42%;
+    width: 25%;
     border: 2px solid #7D7F84;
     border-radius: 10px;
     margin-left: 10px;
+    display: flex;
+    margin-right: 20px;
 }
 
 /*sezione debug*/
