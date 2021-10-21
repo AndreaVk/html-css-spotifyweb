@@ -330,7 +330,6 @@ footer .center{
 .timebar{
     height: 50%;
     width: 100%;
-    border: 1px solid red;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -343,8 +342,8 @@ footer .center{
 }
 
 .timebar .secondi{
-    border: 2px solid #7D7F84;
     width: 65%;
+    border:3px solid #7D7F84;
     display: flex;
     border-radius: 10px;
     
@@ -354,8 +353,25 @@ footer .right{
     height: 100%;
     width: 33%;
     background-color:#282828;
+    display: flex;
+    align-items: center;
 }
 
+.right i{
+    color: white;
+    margin-left: 12px;
+}
+
+#spaceleft{
+    margin-left: 25px;
+}
+
+.right hr{
+    width: 42%;
+    border: 2px solid #7D7F84;
+    border-radius: 10px;
+    margin-left: 10px;
+}
 
 /*sezione debug*/
 
