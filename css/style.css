@@ -257,9 +257,8 @@ hr{
 
 footer .left{
     height: 100%;
-    width: 33%;
+    width: 32%;
     background-color:#282828;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -305,13 +304,55 @@ footer .left{
 
 footer .center{
     height: 100%;
-    width: 33%;
+    width: 35%;
     background-color:#282828 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comandi{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comandi i{
+    font-size: 14px;
+}
+
+#pause{
+    font-size: 22px;
+}
+
+.timebar{
+    height: 50%;
+    width: 100%;
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timebar span{
+    font-size: 11px;
+    color: white;
+    display: flex;
+}
+
+.timebar .secondi{
+    border: 2px solid #7D7F84;
+    width: 65%;
+    display: flex;
+    border-radius: 10px;
+    
 }
 
 footer .right{
     height: 100%;
-    width: 35%;
+    width: 33%;
     background-color:#282828;
 }
 
