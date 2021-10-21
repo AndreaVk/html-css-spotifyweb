@@ -43,13 +43,26 @@ footer{
     display: block;
     margin-bottom: 15px;
     margin-left: 11px;
+    color: #7D7F84;
+}
+
+.navmain span{
+    color: #7D7F84 ;
+    display: none;
+    font-size: 11px;
 }
 
 .top {
     height: calc(100% - 100px);
 }
 
-.playlist {
+.playlist,
+.mypla {
+    display: none;
+}
+
+.bottom div span,
+hr{
     display: none;
 }
 
@@ -71,6 +84,8 @@ footer{
     margin-top: 30px;
 }
 
+
+
 .colonna2 {
     width: calc(100% - 45px);
     height: 100%;
@@ -89,6 +104,7 @@ footer{
     text-align: right;
     padding: 20px;
     background-color:#080B12;
+    opacity: 0.8;
 }
 
 .navlist{
@@ -97,11 +113,9 @@ footer{
 
 .scelta{
     margin-top: 80px;
-    display: flex;
-    flex-wrap: wrap;
     margin-bottom: 60px;
+    width: 100%;
     text-align: center;
-    
 }
 
 .scelta a{
@@ -111,23 +125,12 @@ footer{
     text-transform: uppercase;
     font-size: 11px;
     display: flex;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-bottom: 5px;
     margin-top: 15px;
-    
+    display: inline-block;   
 }
 
-#pt2{
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    color:#7D7F84;
-    text-transform: uppercase;
-    font-size: 11px;
-    display: flex;
-    margin-left: 100px;
-    margin-bottom: 5px;
-}
 
 .logo2{
     display: none;
@@ -146,10 +149,18 @@ footer{
     right: 10px;
 }
 
-.titolo h1{
+.titolo h2{
     color: white;
     font-size: 22px;
     margin-left: 15px;
+}
+
+.titolo span{
+    color: #7D7F84;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
 
 .container::after{
@@ -189,6 +200,35 @@ footer{
 .box span{
     color:#7D7F84;
     font-size: 10px;
+}
+
+.container2{
+    height: 220px;
+    width: 97%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box2{
+    height: 100%;
+    width: 182px;
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.box2 img{
+    width: 100%;
+    height: 75%;
+    background-position: center;
+}
+
+.box2 h2{
+    color: white;
+    font-size: 12px;
+    margin-left: 50px;
 }
 
 footer .left{
@@ -236,4 +276,110 @@ footer .right{
         margin-top: 20px;
         margin-left: 15px;
     }
-} 
+    
+    .navmain .home{
+        display: inline;
+    }
+    
+    .home{
+        margin-top: 20px;
+        line-height: 20px;
+        vertical-align: middle;
+      
+    }
+
+    .navmain span{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+    .navmain #search,
+    .navmain #libreria{
+        margin-bottom:15px;
+        color:#7D7F84 ;
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    .search,
+    .libreria{
+        margin-top: 5px;
+        line-height: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        
+    }
+    
+    .playlist{
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .firstname h2{
+        display: block;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .firstname span{
+        color:#7D7F84 ;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 5px;
+        bottom: 10px;
+    }
+
+    .firstname i{
+        filter: invert(1);
+        color:#7D7F84 ;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    
+    .myplay{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .myplay span{
+        color:#7D7F84 ;
+        font-size: 12px;
+        margin-top: 12px;
+        font-weight: bold;
+    }
+
+    .bottom{
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .bottom #arrow{
+        color: #7D7F84;
+    }
+
+    #user{
+        color:#7D7F84 ;
+        margin-bottom: 10px;
+    }
+
+    .bottom div span{
+        display: inline-block;
+        color:#7D7F84;
+        font-size: 11px;
+        font-weight: bold; 
+        margin-left: 6px;
+    }
+
+    hr{
+        display: inline-block;
+        width: 85%;
+        text-align: center;
+        border: 1px solid #7D7F84; 
+    }
+}
+
